@@ -89,3 +89,10 @@ body {
   border-radius: 8px;
   border: 4px solid inherit;
 }
+
+.react-pdf__Page__textContent {
+  display: none;
+}
+.react-pdf__Page__annotations {
+  display: none;
+}

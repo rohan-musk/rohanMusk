@@ -1,27 +1,22 @@
 import React, { useEffect, useState } from 'react';
+import { Document, Page, pdfjs } from 'react-pdf';
 import { useRouter } from 'next/router';
 import Cursor from '../components/Cursor';
 import Header from '../components/Header';
-import ProjectResume from '../components/ProjectResume';
-import Socials from '../components/Socials';
 import Button from '../components/Button';
-import { useTheme } from 'next-themes';
 // Data
-import { name, showResume } from '../data/portfolio.json';
-import { resume } from '../data/portfolio.json';
 import data from '../data/portfolio.json';
 
 const Resume = () => {
+  pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
   const router = useRouter();
-  const theme = useTheme();
-  const [mount, setMount] = useState(false);
+  const [numPages, setNumPages] = useState(null);
+  const [pageNumber, setPageNumber] = useState(1);
 
-  useEffect(() => {
-    setMount(true);
-    if (!showResume) {
-      router.push('/');
-    }
-  }, []);
+  function onDocumentLoadSuccess({ numPages }) {
+    setNumPages(numPages);
+  }
+
   return (
     <>
       {process.env.NODE_ENV === 'development' && (
@@ -39,7 +34,9 @@ const Resume = () => {
       >
         <Header isBlog />
         <div className='mt-10 w-full flex flex-col items-center'>
-          <p>will be updated soon...</p>
+          <Document file='/resume/RohanAnilMuskawad.pdf'>
+            <Page pageNumber={pageNumber} style={{ width: 700 }} />
+          </Document>
         </div>
       </div>
     </>
