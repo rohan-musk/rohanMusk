@@ -34,6 +34,15 @@ const Resume = () => {
       >
         <Header isBlog />
         <div className='mt-10 w-full flex flex-col items-center'>
+          <Button
+            onClick={() =>
+              window.open(
+                'https://drive.google.com/file/d/1kl0M7UB8uilsV67A3uzqx6m4LEzLqA-b/view?usp=share_link'
+              )
+            }
+          >
+            Download Resume
+          </Button>
           <Document file='/resume/RohanAnilMuskawad.pdf'>
             <Page pageNumber={pageNumber} style={{ width: 700 }} />
           </Document>
