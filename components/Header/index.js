@@ -77,7 +77,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                   {showResume && (
                     <Button
                       onClick={() =>
-                        window.open('mailto:hello@chetanverma.com')
+                        window.open('mailto:f20201798@pilani.bits-pilani.ac.in')
                       }
                     >
                       Resume
@@ -85,7 +85,9 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                   )}
 
                   <Button
-                    onClick={() => window.open('mailto:hello@chetanverma.com')}
+                    onClick={() =>
+                      window.open('mailto:f20201798@pilani.bits-pilani.ac.in')
+                    }
                   >
                     Contact
                   </Button>
