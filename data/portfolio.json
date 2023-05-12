@@ -1,1 +1,105 @@
-{"name":"Rohan","headerTaglineOne":"Greetings 👋","headerTaglineTwo":"I'm Rohan Muskawad,","headerTaglineThree":"software developer from","headerTaglineFour":"BITS Pilani, India.","showCursor":true,"showBlog":false,"darkMode":true,"showResume":true,"socials":[{"id":"1","title":"Github","link":"https://github.com/rohan-musk"},{"id":"2","title":"LinkedIn","link":"https://www.linkedin.com/in/rohan-muskawad-317021204/"},{"id":"5","title":"Email","link":"mailto:f20201798@pilani.bits-pilani.ac.in"}],"projects":[{"id":"1","title":"HiTech Task App","description":"A React Native app made for HiTechRO that tracks tasks and provides a detail overview on company's projects.","imageSrc":"https://drive.google.com/uc?id=1eQbd0n2mVjYGwlAvthPQXL98W2WQy1RE","url":"https://drive.google.com/file/d/1QS8IExTAYb6XCmfR-Fng54t5TFkes3XC/view"},{"id":"2","title":"A Blockchain Based Mobile Anti-Theft Solution","description":"A smart contract that uses IMEI numbers that allows owners to block the phone once stolen. Made using Solidity and React","imageSrc":"https://drive.google.com/uc?id=1lPMfnn2OkNhnpihMYc4RQq9WeaqH3mnt","url":"https://github.com/k-rishabh/theft_prevention_dapp"},{"id":"3","title":"React Chat App","description":"A minimal React Chat App made using React, Express and SocketIO","imageSrc":"https://drive.google.com/uc?id=1ZpkN6cCq-sCNjMefAQZAHW0qLSKRjit2","url":"https://github.com/rohan-musk/react-chat-app"},{"id":"4","title":"Age Invariant Facial Recognition System","description":"A Computer Vision model to detect faces of people from given database regardless of their age. Built using Akaze, SURF and ORB as feature extractors. Calculating accuracy using FRR and FAR","imageSrc":"https://drive.google.com/uc?id=1oy9do8mDVbLMRGO9751H8oOOu4xe08Hw","url":"https://drive.google.com/file/d/1safZ8UYs-E4u1JuAsT-bQuajHy5rU2lm/view?usp=share_link"}],"services":[{"id":"1","title":"Frontend Development","description":"React JS, Redux, Next JS, Chart JS, Bootstrap"},{"id":"2","title":"Backend Development","description":"Node JS, Mongo DB, Google Sheet API, Postman"},{"id":"3","title":"Other Dev Skills","description":"React Native, Solidity, Unity and always ready to learn new skills :)"},{"id":"4","title":"Other skills","description":"Figma, Photoshop, Blender, Illustrator"}],"aboutpara":"Hi I am Rohan, a software developer currently building Scream, a SaaS for Content Creators. I am currently pursuing a Bachelors in Electronics and Instrumentation Engineering from BITS Pilani. With a strong background in programming and a passion for technology, I am eager to apply my skills and continue learning in a professional setting.","resume":{"tagline":"👋  I'm a software engineer, product designer.","description":"I have delivered world-class user experiences to millions of people. Well-versed with React, Javascript, and most of the Web frameworks.","experiences":[{"id":"1","dates":"March 2022 - Present","type":"Full Time","position":"Frontend Engineer at X","bullets":"Bullet One, Bullet Two"},{"id":"d495c23b-4f65-479a-9b8a-cfbc1c089725","dates":"July 2020 - March 2022","type":"Full Time","position":"Frontend Engineer at X","bullets":"Worked on the frontend of a React application, Worked on the frontend of a React application"}],"education":{"universityName":"University X","universityDate":"2016-2020","universityPara":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"},"languages":["Javascript","HTML5","CSS","Python","Go"],"frameworks":["React","Typescript","NodeJs"],"others":["Figma","AdobeXD","AWS"]}}
+{
+  "name": "Rohan",
+  "headerTaglineOne": "Greetings 👋",
+  "headerTaglineTwo": "I'm Rohan Muskawad,",
+  "headerTaglineThree": "software developer from",
+  "headerTaglineFour": "BITS Pilani, India.",
+  "showCursor": true,
+  "showBlog": false,
+  "darkMode": true,
+  "showResume": true,
+  "socials": [
+    { "id": "1", "title": "Github", "link": "https://github.com/rohan-musk" },
+    {
+      "id": "2",
+      "title": "LinkedIn",
+      "link": "https://www.linkedin.com/in/rohan-muskawad-317021204/"
+    },
+    {
+      "id": "5",
+      "title": "Email",
+      "link": "mailto:f20201798@pilani.bits-pilani.ac.in"
+    }
+  ],
+  "projects": [
+    {
+      "id": "1",
+      "title": "HiTech Task App",
+      "description": "A React Native app made for HiTechRO that tracks tasks and provides a detail overview on company's projects.",
+      "imageSrc": "https://drive.google.com/uc?id=1eQbd0n2mVjYGwlAvthPQXL98W2WQy1RE",
+      "url": "https://drive.google.com/file/d/1QS8IExTAYb6XCmfR-Fng54t5TFkes3XC/view"
+    },
+    {
+      "id": "2",
+      "title": "A Blockchain Based Mobile Anti-Theft Solution",
+      "description": "A smart contract that uses IMEI numbers that allows owners to block the phone once stolen. Made using Solidity and React",
+      "imageSrc": "https://drive.google.com/uc?id=1lPMfnn2OkNhnpihMYc4RQq9WeaqH3mnt",
+      "url": "https://github.com/k-rishabh/theft_prevention_dapp"
+    },
+    {
+      "id": "3",
+      "title": "React Chat App",
+      "description": "A minimal React Chat App made using React, Express and SocketIO",
+      "imageSrc": "https://drive.google.com/uc?id=1ZpkN6cCq-sCNjMefAQZAHW0qLSKRjit2",
+      "url": "https://github.com/rohan-musk/react-chat-app"
+    },
+    {
+      "id": "4",
+      "title": "Age Invariant Facial Recognition System",
+      "description": "A Computer Vision model to detect faces of people from given database regardless of their age. Built using Akaze, SURF and ORB as feature extractors. Calculating accuracy using FRR and FAR",
+      "imageSrc": "https://drive.google.com/uc?id=1oy9do8mDVbLMRGO9751H8oOOu4xe08Hw",
+      "url": "https://drive.google.com/file/d/1safZ8UYs-E4u1JuAsT-bQuajHy5rU2lm/view?usp=share_link"
+    }
+  ],
+  "services": [
+    {
+      "id": "1",
+      "title": "Frontend Development",
+      "description": "React JS, Redux, Next JS, Chart JS, Bootstrap"
+    },
+    {
+      "id": "2",
+      "title": "Backend Development",
+      "description": "Node JS, Mongo DB, Google Sheet API, Postman"
+    },
+    {
+      "id": "3",
+      "title": "Other Dev Skills",
+      "description": "React Native, Solidity, Unity and always ready to learn new skills :)"
+    },
+    {
+      "id": "4",
+      "title": "Other skills",
+      "description": "Figma, Photoshop, Blender, Illustrator"
+    }
+  ],
+  "aboutpara": "Hi I am Rohan, a software developer who loves working on solving crucial problems using SaaS based solutions. I am currently pursuing a Bachelors in Electronics and Instrumentation Engineering from BITS Pilani. With a strong background in programming and a passion for technology, I am eager to apply my skills and continue learning in a professional setting.",
+  "resume": {
+    "tagline": "👋  I'm a software engineer, product designer.",
+    "description": "I have delivered world-class user experiences to millions of people. Well-versed with React, Javascript, and most of the Web frameworks.",
+    "experiences": [
+      {
+        "id": "1",
+        "dates": "March 2022 - Present",
+        "type": "Full Time",
+        "position": "Frontend Engineer at X",
+        "bullets": "Bullet One, Bullet Two"
+      },
+      {
+        "id": "d495c23b-4f65-479a-9b8a-cfbc1c089725",
+        "dates": "July 2020 - March 2022",
+        "type": "Full Time",
+        "position": "Frontend Engineer at X",
+        "bullets": "Worked on the frontend of a React application, Worked on the frontend of a React application"
+      }
+    ],
+    "education": {
+      "universityName": "University X",
+      "universityDate": "2016-2020",
+      "universityPara": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"
+    },
+    "languages": ["Javascript", "HTML5", "CSS", "Python", "Go"],
+    "frameworks": ["React", "Typescript", "NodeJs"],
+    "others": ["Figma", "AdobeXD", "AWS"]
+  }
+}
